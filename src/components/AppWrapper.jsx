@@ -22,7 +22,7 @@ export const AppWrapper = ({ children, isAuth, setIsAuth, setIsInChat }) => {
     return (
         <div className="App">
             <div className="app-header bg-gradient-to-br from-green-400 to-blue-600">
-                <h1 className="mb-4 inline-block text-3xl font-extrabold text-gray-900 dark:text-white md:text-5xl lg:text-6xl" data-aos="fade-up" data-aos-duration="1000"><center><img src="public/doge coin.png" alt="logo" className="h-10 inline-block" /></center> Champt </h1>
+                <h1 className="mb-4 inline-block text-3xl font-extrabold text-gray-900 dark:text-white md:text-5xl lg:text-6xl" data-aos="fade-up" data-aos-duration="1000">Champt </h1>
             </div>
             <div className="app-container">{children}</div>
             {isAuth && (
